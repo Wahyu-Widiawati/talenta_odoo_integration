@@ -19,7 +19,6 @@ This project automates the flow of **employee data** from **Talenta** to **Postg
 
 ## 🚀 How it Works
 
-```mermaid
 flowchart TD
     TalentaAPI[Talenta API (Employee Data)] --> PyScript[talenta_odoo_integration.py]
     PyScript --> Postgres[(PostgreSQL Database)]
